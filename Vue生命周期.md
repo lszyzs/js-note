@@ -25,7 +25,13 @@ vue生命周期总共分为8个阶段创建前/后，载入前/后，更新前/�
 然后，AST会经过generate（将AST语法树转化成render funtion字符串的过程）得到render函数，render的返回值是VNode，VNode是Vue的虚拟DOM节点，里面有（标签名、子节点、文本等等）
 
 - **event & v-model: 事件和v-model的实现原理**
+
 - **slot & keep-alive: 内置组件的实现原理**
+
 - **transition: 过渡的实现原理**
+
 - **vue-router: 官方路由的实现原理**
-- **vuex: 官方状态管理的实现原理**
+
+- #### **vuex: 官方状态管理的实现原理**
+
+  
